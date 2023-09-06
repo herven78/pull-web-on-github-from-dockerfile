@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER herven12 nyameherveanani@gmail.com
+MAINTAINER herven adresse@gmail.com
 
 RUN apt-get update && apt-get install -y nginx
 
