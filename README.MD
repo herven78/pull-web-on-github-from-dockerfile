@@ -15,7 +15,7 @@ Prerequis : Installer Docker
 -Etape 1: Clonez le code en executez la commande suivante "git clone https://github.com/herven78/pull-web-on-github-from-dockerfile.git "
 
 -Etape 2: Mettez vous dans le dossier cloné et Construisez votre image avec la commande : "docker build -t webapp:v2 . " assurez vous d'etre dans le dossier 
-webapp contenant le Dockerfile et le fichier du site que vous avez clonez.
+webapp contenant le Dockerfile et le fichier du site cloné.
 
 -Etape 3: demarrer le conteneur "docker run --name monsite -d -p 80:80 webapp:v2" 
 
